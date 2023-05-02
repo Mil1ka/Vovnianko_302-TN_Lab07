@@ -1,0 +1,35 @@
+<HTML>
+ <HEAD>
+ <TITLE>Навчальний файл HTML</TITLE>
+ <meta charset =UTF-8>
+ </HEAD>
+ <BODY>
+  <form>
+  <pre><h2>Ваше ім'я</h2> <input name="name" type="text" maxlength="40" size="40"
+    value="">
+  <p>
+  Ваша стать:<input type="radio" name="pol" value="male">Чоловіча
+             <input type="radio" name="pol" value="female">Жіноча
+  <p>
+  На якому курсі Ви навчаєтесь?
+   <select name="curs" size="1">
+    <option value="1" selected>Перший</option>
+    <option value="2" selected>Другий</option>
+    <option value="3" selected>Третій</option>
+    <option value="4" selected>ПершийЧетвертий</option>
+    <option value="5" selected>П'ятий</option>
+   </select>
+  <p>
+  Які дисципліни ви вивчаєте на курсі?
+   <input type="checkbox" name="web" value="yes" checked> WEB-програмування
+   <input type="checkbox" name="eldinam" value="yes"> Технічна електродинаміка
+  <p>
+  <h2>Напишіть декілька слів про себе:</h2>
+  </pre>
+   <textarea name="about" rows="6" cols="60" wrap="off"></textarea>
+  <p><a href="message.html" target="_blank"><input type="button" value="Відіслати дані"></a>
+     <input type="reset" value="Очистити форму">
+     <input type="file" name="friend" size="50" accept="припустимий тип файлу">
+  </form>
+ </BODY>
+</HTML>
